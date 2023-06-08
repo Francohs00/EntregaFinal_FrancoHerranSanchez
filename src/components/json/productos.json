@@ -1,0 +1,9 @@
+[
+    {"idx":1, "titulo": "Ford New territory", "descripcion": "Suv mediana 4x4", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-nueva-territory.jpg", "precio": 35000, "categoria":"Suv"},
+    {"idx":2, "titulo":"Ford Kuga Hybrid", "descripcion": "Suv mediana Hibrida", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-kuga-hev.jpg", "precio": 40000, "categoria":"Suv"},
+    {"idx":3, "titulo":"Ford Bronco", "descripcion": "Un clasico vuelto a nacer", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-bronco.jpg", "precio":20000, "categoria":"Suv"},
+    {"idx":4, "titulo":"Ford Ranger","descripcion":"Pick-up mediana 4x4", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-ranger.jpg", "precio":35000, "categoria":"Pick-up"},
+    {"idx":5, "titulo":"Ford Ranger Raptor","descripcion":"Pick-up mediana 4x4 deportiva", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-ranger-raptor.jpg", "precio":55000, "categoria":"Pick-up"},
+    {"idx":6, "titulo":"Ford F150","descripcion":"Pick-up Full size 4x4", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-f150-hev.jpg", "precio":70000, "categoria":"Pick-up"},
+    {"idx":7, "titulo":"Mustang","descripcion":"El V8 que necesitas", "imagen":"https://www.ford.com.ar/content/dam/Ford/website-assets/latam/ar/home/showroom/fds/far-showroom-mustang.jpg", "precio":100000, "categoria":"Auto"}
+]
