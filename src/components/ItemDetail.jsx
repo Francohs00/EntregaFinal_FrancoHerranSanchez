@@ -1,18 +1,17 @@
 
 
-const ItemDetail = ({ productos }) => {
-    if (!productos) 
+const ItemDetail = ({ producto }) => {
 
     return (
         <div className="container">
             <div className="row">
                 <div className="col-md-3 offset-md-3">
-                    {productos.imagen && <img src={productos.imagen} alt={productos.titulo} className="img-fluid" />}
+                    {producto.imagen && <img src={producto.imagen} alt={producto.titulo} className="img-fluid" />}
                 </div>
                 <div className="col-md-3">
-                    <h1>{productos.titulo}</h1>
-                    <h3>{productos.descripcion}</h3>
-                    <p><b>${productos.precio}</b></p>
+                    <h1>{producto.titulo}</h1>
+                    <h3>{producto.descripcion}</h3>
+                    <p><b>${producto.precio}</b></p>
                 </div>
             </div>
         </div>

@@ -1,7 +1,6 @@
 import './App.css';
 import Main from './components/main';
 import Itemlistcontainer from './components/Itemlistcontainer';
-import Cartwidget from './components/cartwidget';
 import Footer from './components/footer';
 import ItemDetailContainer from "./components/ItemDetailContainer";
 import Header from './components/header';
@@ -14,7 +13,6 @@ function App() {
       <BrowserRouter>
         <Header/>
         <Navbar/>
-        <Cartwidget/>
         <Routes>
           <Route path={"/"} element={<Itemlistcontainer />} />
           <Route path={"/category/:id"} element={<ItemDetailContainer />} />
