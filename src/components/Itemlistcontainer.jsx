@@ -17,7 +17,7 @@ const Itemlistcontainer = () => {
         promesa.then(data => {
             setItems(data);
         })
-    }, [])
+    }, [id])
     return(
         <div className="container my-5">
             <div className="row">

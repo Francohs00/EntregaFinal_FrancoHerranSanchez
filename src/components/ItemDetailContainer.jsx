@@ -11,7 +11,7 @@ const ItemDetailContainer = () => {
             useEffect(() => {
                 const promesa = new Promise((resolve) => {
                     setTimeout(() => {
-                        let producto = productos.find(item => item.idx === id);
+                        let producto = productos.find(item => item.idx === 3);
                         resolve(producto);
                     }, 2000);
                 });
