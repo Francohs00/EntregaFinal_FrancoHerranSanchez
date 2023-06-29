@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 
-const ThankYou = () => {
+const Gracias = () => {
     const {orderId} = useParams();
 
     return (
@@ -18,4 +18,4 @@ const ThankYou = () => {
     )
 }
 
-export default ThankYou;
+export default Gracias;
