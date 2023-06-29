@@ -24,7 +24,7 @@ const Checkout = () => {
         }
 
         const buyer = {name:nombre, phone:telefono, email:email}
-        const items = cart.map(item => ({id:item.id, title:item.titulo, price:item.precio, quantity:item.quantity}));
+        const items = cart.map(item => ({id:item.id, title:item.titulo, price:item.precio, quantity:item.cantidad}));
         const fecha = new Date();
         const date = `${fecha.getFullYear()}-${fecha.getMonth()+1}-${fecha.getDate()} ${fecha.getHours()}:${fecha.getMinutes()}`;
         const total = sumTotal();
@@ -58,7 +58,7 @@ const Checkout = () => {
                             <label className="form-label">Teléfono</label>
                             <input type="text" className="form-control" onInput={(e) => {setTelefono(e.target.value)}} />
                         </div>
-                        <button type="button" className="btn btn-light" onClick={generarOrden}>Generar Orden</button>
+                        <button type="button" className="btn btn-light" onClick={generarOrden}>Generar Reserva</button>
                     </form>
                 </div>
                 <div className="col-md-5">

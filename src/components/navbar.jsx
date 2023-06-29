@@ -7,13 +7,13 @@ const Navbar = () => {
                 <NavLink className="nav-link text-dark" aria-current="page" to={"/main"}>Main</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/suv"}>Suv</NavLink>
+                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/Suv"}>Suv</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/pick-up"}>Pick-up</NavLink>
+                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/Pick-up"}>Pick-up</NavLink>
             </li>
             <li className="nav-item">
-                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/auto"}>Auto</NavLink>
+                <NavLink className="nav-link text-dark" aria-current="page" to={"/category/Auto"}>Auto</NavLink>
             </li>
 
         </ul>
