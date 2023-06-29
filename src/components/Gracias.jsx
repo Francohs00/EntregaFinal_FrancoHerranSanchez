@@ -8,7 +8,7 @@ const Gracias = () => {
             <div className="row">
                 <div className="col text-center">
                     <div className="alert alert-light p-5" role="alert">
-                        <h1 className="fs-1 text">Gracias por tu Compra!</h1>
+                        <h1 className="fs-1 text">Gracias por tu Reserva!</h1>
                         <p>Tu Orden de Compra es: <b>{orderId}</b></p>
                         <p><Link to={"/"} className="btn btn-light mt-3">Volver al Inicio</Link></p>
                     </div>
